@@ -16,6 +16,7 @@ Group={{ odoo_role_odoo_group }}
 # Restart service after all crashes but wait 5 secontds between restarts.
 Restart=always
 RestartSec=5
+RuntimeMaxSec=1d
 
 # output stdout and stderr to syslog. (/var/log/messages)
 StandardOutput=syslog
